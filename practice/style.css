@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    font-family:  Open Sans, Helvetica, Arial, or Roboto;
+}
+.heading {
+    background-color: #333;
+    border-bottom: 1px solid;
+    margin-bottom: 12px;
+}
+.navbar ul{
+   display: flex;
+   justify-content: center;
+
+}
+.navbar-item{
+    padding: 15px;
+}
+.navbar-item a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbar-item:hover{
+    background-color: black;
+}
+.navbar-item:hover a{
+    color: white;
+}
+.container {
+    margin: 12px;
+}
+#life h1 {
+    margin-bottom: 12px;
+}
+#achievements{
+   margin: 12px 0px; 
+}
+#achievements h1{
+    margin-bottom: 20px;
+}
+
+/* BEM
+SMACSS */
+
+.achievement-item h3{
+    margin: 20px 0px;
+}
+#now h1{
+    margin: 12px 0px;
+}
